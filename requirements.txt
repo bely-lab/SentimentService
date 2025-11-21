@@ -1,0 +1,5 @@
+azure-functions
+azure-ai-textanalytics
+textblob
+azure-cosmos
+python-dateutil

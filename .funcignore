@@ -1,0 +1,45 @@
+.venv
+.venv/
+__pycache__/
+local.settings.json
+*.pyc
+# create .funcignore with recommended entries
+
+# ignore virtual env and local secrets
+.venv/
+env/
+venv/
+local.settings.json
+__pycache__/
+*.pyc
+
+# editor and IDE files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Azurite local DB files (do not deploy)
+__azurite_db_blob__*
+__azurite_db_blob_extent__*
+
+# zip and deployment artifacts
+app.zip
+*.zip
+
+# node/npm / python packaging
+node_modules/
+dist/
+build/
+
+# miscellaneous
+*.log
+| Out-File -FilePath .\.funcignore -Encoding utf8
+
+Write-Host ".funcignore created. Contents:"
+Get-Content .\.funcignore

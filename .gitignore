@@ -1,0 +1,42 @@
+# Azure Functions local settings (contains secrets)
+local.settings.json
+local.settings.json.sample
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build / deployment artifacts
+app.zip
+deploy_pkg_clean/
+
+# Azure specific
+.azure/
+.publishsettings
+
+# Node (if any tools used)
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
