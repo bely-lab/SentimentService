@@ -1,13 +1,13 @@
-# SentimentService – Azure cloud Functions Project
+## SentimentService – Azure cloud Functions Project
 
 This project is a Python-based Azure Functions application that provides sentiment-related services through HTTP-triggered endpoints and a scheduled background task.
 
-## Features
+### Features
 - AddSentiment: HTTP POST endpoint to submit sentiment data.
 - GetResults: HTTP GET endpoint to retrieve sentiment results.
 - DailySummary: Timer-triggered function that runs based on a configurable schedule.
 
-## Technologies Used
+### Technologies Used
 - Azure Functions (Python)
 - Azure CLI
 - Visual Studio Code
