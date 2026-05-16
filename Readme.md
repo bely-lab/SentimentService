@@ -5,7 +5,7 @@ This project is a Python-based MS Azure Functions application that provides sent
 ### Features
 - AddSentiment: HTTP POST endpoint to submit sentiment data.
 - GetResults: HTTP GET endpoint to retrieve sentiment results.
-- DailySummary: Timer-triggered function that runs based on a configurable schedule.
+- DailySummary: Time-triggered function that runs based on a configurable schedule.
 
 ### Technologies Used
 - Azure Functions (Python)
