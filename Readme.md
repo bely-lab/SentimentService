@@ -1,4 +1,4 @@
-## SentimentService: Azure cloud Functions Project
+## SentimentService: Azure cloud Functions 
 
 This project is a Python-based MS Azure Functions application that provides sentiment-related services through HTTP-triggered endpoints and a scheduled background task.
 
